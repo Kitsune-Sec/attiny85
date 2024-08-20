@@ -15,6 +15,10 @@ void loop()
   // Enters the rickroll link and presses enter
   DigiKeyboard.print("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
+  
+  //
+  DigiKeyboard.delay(2000);
+  DigiKeyboard.sendKeyStroke(KEY_F); 
 
   for (;;) {/* Stops the loop */}
 }
