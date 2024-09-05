@@ -17,7 +17,7 @@ void loop()
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   
   //
-  DigiKeyboard.delay(2000);
+  DigiKeyboard.delay(3000);
   DigiKeyboard.sendKeyStroke(KEY_F); 
 
   for (;;) {/* Stops the loop */}
